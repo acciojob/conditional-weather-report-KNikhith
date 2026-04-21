@@ -7,9 +7,9 @@ export default function WeatherDisplay({ weather }) {
   return (
     <>
       <p>
-        Temparature: <span style={style}>{temperature}&deg;c</span>
+        Temparature: <span style={style}>{temperature}</span>
       </p>
-      <p>conditions:{conditions}</p>
+      <p>Conditions: {conditions}</p>
     </>
   );
 }
